@@ -1,0 +1,24 @@
+.profile{
+    .image{
+        img{
+            width: 300px;
+        }
+    }
+    .about{
+        align-items: center;
+        display: flex;
+        
+        h5{
+            font-size: 40px;
+        }
+    }
+    .button{
+        display: flex;
+        align-items: center;
+        a{
+            height: 40px;
+            position: absolute;
+            right: 10px;
+        }
+    }
+}
