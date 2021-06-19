@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(247, 205, 212);
+    font-family: sans-serif;
+
+}
+.app{
+    form{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        input{
+            width: 50%;
+            border-radius: 5px;
+
+        }
+        button{
+            background-color: plum;
+            border-radius: 5px;
+            width: 100px;
+            border: 1px solid plum;
+            outline: plum;
+            transition: 0.5s;
+        }
+        button:hover{
+            background-color: rgb(177, 104, 177);
+        }
+    }
+    .recipe{
+        .recipe-row{
+            background-color: rgb(243, 223, 226);
+            min-height: 500px;
+            border: 1px solid gray;
+            border-radius: 15px;
+            box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+            width: 90%;
+            .recipe-left{
+                img{
+                    width: 300px;
+                    height: 300px;
+                }
+            }
+        }
+    }
+}
